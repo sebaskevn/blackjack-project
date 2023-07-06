@@ -14,9 +14,13 @@ In Blackjack the goal is to beat the dealer by drawing cards and getting the clo
 
 # Tech Stack
 
-I am using HTML, CSS and JavaScript to make this project.
+• HTML 
 
-# Screenshots
+• CSS 
+
+• JavaScript
+
+# Wireframe
 
 # MVP goals
 
