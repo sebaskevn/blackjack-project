@@ -22,7 +22,7 @@ In Blackjack the goal is to beat the dealer by drawing cards and getting the clo
 
 # Wireframe
 
-# MVP goals
+# MVP Goals
 
 • Render game in browser.
 
@@ -34,3 +34,6 @@ In Blackjack the goal is to beat the dealer by drawing cards and getting the clo
 
 • Reset the game by clicking on a deck of cards with the word reset on it when you hover over with mouse.
 
+# Stretch Goals
+
+# Potential Roadblocks
