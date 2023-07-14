@@ -1,27 +1,56 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    height: 100px;
+    margin: 0;
+}
+
+p {
+    font-size: 50px;
+}
+
+.dealers-items {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-deck {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #dealer-cards img {
     height: 175px;
     width: 125px;
-    margin: 1px;
+    margin: -50px;
 }
 
 #your-cards img {
     height: 175px;
     width: 125px;
-    margin: 1px;
-    align-items: flex-end, center;
+    margin: -50px;
+    
 }
 
-#center-deck img {
-    height: 175px;
-    width: 125px;
-
-    margin: 1px;
-    align-content: center;
+.buttons {
+    margin-top: 100px;
 }
 
 
@@ -30,8 +59,17 @@ body {
     height: 50px;
     font-size: 20px;
 }
+
 #stand {
     width: 100px;
     height: 50px;
     font-size: 20px;
+}
+
+
+
+
+#center-deck {
+    height: 175px;
+    width: 125px;
 }
