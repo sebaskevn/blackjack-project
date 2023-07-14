@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -22,6 +24,7 @@ p {
 }
 
 .center-deck {
+    
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -49,6 +52,7 @@ p {
     
 }
 
+
 .buttons {
     margin-top: 100px;
 }
@@ -72,4 +76,10 @@ p {
 #center-deck {
     height: 175px;
     width: 125px;
+    cursor: pointer;
+}
+
+.center-deck-title {
+    font-size: 20px;
+    font-weight: bold;
 }

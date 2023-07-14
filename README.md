@@ -22,7 +22,7 @@ In Blackjack the goal is to beat the dealer by drawing cards and getting the clo
 
 # Wireframe
 
-![wireframe image for blackjack](images/image2.png)
+![wireframe image for blackjack](/docs/images/image2.png)
 
 # MVP Goals
 
@@ -65,4 +65,4 @@ Making Card total logic.
 
 Making the win/loss logic.
 
-Not sure where to add more card images when drawing.
+Not sure where to add more card images when drawing cards.
