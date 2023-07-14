@@ -43,18 +43,18 @@ function startGame() {
     dealerSum += getValue(hidden);
     dealerAceCount += checkAce(hidden);
     let hiddenImg = document.createElement("img");
-    hiddenImg.src = "/images/cards/BACK.png";
+    hiddenImg.src = "../images/cards/BACK.png";
     hiddenImg.setAttribute("id", "hidden");
     document.getElementById("dealer-cards").append(hiddenImg);
     let dealerCardImg = document.createElement("img");
     let dealerCard = deck.pop();
-    dealerCardImg.src = "/images/cards/" + dealerCard + ".png";
+    dealerCardImg.src = "../images/cards/" + dealerCard + ".png";
     document.getElementById("dealer-cards").append(dealerCardImg);
 
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img");
         let card = deck.pop();
-        cardImg.src = "/images/cards/" + card + ".png";
+        cardImg.src = "../images/cards/" + card + ".png";
         yourSum += getValue(card);
         yourAceCount += checkAce(card);
         document.getElementById("your-cards").append(cardImg);
@@ -72,7 +72,7 @@ function hit() {
 
     let cardImg = document.createElement("img");
     let card = deck.pop();
-    cardImg.src = "/images/cards/" + card + ".png";
+    cardImg.src = "../images/cards/" + card + ".png";
     yourSum += getValue(card);
     yourAceCount += checkAce(card);
     document.getElementById("your-cards").append(cardImg);
@@ -90,7 +90,7 @@ function stand() {
     while (dealerSum < 17) {
       let cardImg = document.createElement("img");
       let card = deck.pop();
-      cardImg.src = "/images/cards/" + card + ".png";
+      cardImg.src = "../images/cards/" + card + ".png";
       dealerSum += getValue(card);
       dealerAceCount += checkAce(card);
       document.getElementById("dealer-cards").append(cardImg);
@@ -98,7 +98,7 @@ function stand() {
 
 
     canHit = false;
-    document.getElementById("hidden").src = "/images/cards/" + hidden + ".png";
+    document.getElementById("hidden").src = "../images/cards/" + hidden + ".png";
 
     let message = "";
     if (yourSum > 21) {
